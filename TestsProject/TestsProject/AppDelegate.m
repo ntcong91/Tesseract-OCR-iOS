@@ -32,10 +32,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-#ifdef DEBUG
-    extern void __gcov_flush(void);
-    __gcov_flush();
-#endif
 }
 
 @end

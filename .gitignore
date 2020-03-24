@@ -75,3 +75,5 @@ curl-*
 # GCOV code coverage files
 *.gcda
 *.gcno
+
+.DS_Store
