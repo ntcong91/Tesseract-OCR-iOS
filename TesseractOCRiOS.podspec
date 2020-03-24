@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 
   s.source                  = { :git => 'https://github.com/gali8/Tesseract-OCR-iOS.git',                                                         :tag => s.version.to_s }
 
-  s.platform                = :ios, "8.1"
+  s.platform                = :ios, "8.0"
   s.source_files            = 'TesseractOCR/*.{h,m,mm}', 'TesseractOCR/include/**/*.h'
   s.private_header_files    = 'TesseractOCR/include/**/*.h'
   s.requires_arc            = true
   s.frameworks              = 'UIKit', 'Foundation'
 
-  s.ios.deployment_target   = "7.0"
+  s.ios.deployment_target   = "8.0"
   s.ios.vendored_library    = 'TesseractOCR/lib/*.a'
   s.xcconfig                = { 'OTHER_LDFLAGS' => '-lstdc++ -lz',
                                 'CLANG_CXX_LIBRARY' => 'compiler-default' }

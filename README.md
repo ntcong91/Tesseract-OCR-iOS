@@ -2,17 +2,18 @@ Tesseract OCR iOS
 =================
 [![Build Status](https://travis-ci.org/gali8/Tesseract-OCR-iOS.svg?branch=master)](https://travis-ci.org/gali8/Tesseract-OCR-iOS) [![Coverage Status](https://img.shields.io/coveralls/gali8/Tesseract-OCR-iOS.svg)](https://coveralls.io/r/gali8/Tesseract-OCR-iOS) [![](https://img.shields.io/cocoapods/v/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios) [![](https://img.shields.io/cocoapods/p/TesseractOCRiOS.svg)](http://cocoapods.org/?q=tesseractocrios)  [![](https://img.shields.io/cocoapods/l/TesseractOCRiOS.svg)](https://github.com/gali8/Tesseract-OCR-iOS/blob/master/LICENSE.md) 
 
-**Use Tesseract OCR in iOS 7.0+ projects written in either Objective-C or Swift.
+**Use Tesseract OCR in iOS 8.0+ projects written in either Objective-C or Swift.
 Easy and fast.**
 
 These are the current versions of the upstream bundled libraries within the framework that this repository provides:
 
 * Tesseract 4.0.0 release ([homepage](https://github.com/tesseract-ocr/tesseract))
-* Leptonica 1.76.0 ([homepage](http://leptonica.org/))
+* Leptonica 1.79.0 ([homepage](http://leptonica.org/))
 * Image libraries (Thx to ashtons and his [libtiff-ios] (https://github.com/ashtons/libtiff-ios) port):
-- Libtiff 4.0.9 ([homepage](http://www.remotesensing.org/libtiff/))
+- Libtiff 4.1.0 ([homepage](http://www.remotesensing.org/libtiff/))
 - Libpng 1.6.34 ([homepage](http://www.libpng.org/pub/png/libpng.html))
-- Libjpeg 9a ([homepage](http://libjpeg.sourceforge.net/))
+- Libjpeg 9d ([homepage](http://libjpeg.sourceforge.net/))
+- Libcurl 7.69.1 ([homepage](https://curl.haxx.se/))
 
 **All libs are with bitcode integrated**
 

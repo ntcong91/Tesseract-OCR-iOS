@@ -93,6 +93,16 @@
 		84B790DB1B7B7CE500B1C726 /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B790C01B7B7CE500B1C726 /* unicharmap.h */; };
 		84B790DC1B7B7CE500B1C726 /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B790C11B7B7CE500B1C726 /* unicharset.h */; };
 		84EA08BA1B8DDF6E00AD3FFC /* libtesseract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA08B91B8DDF6E00AD3FFC /* libtesseract.a */; };
+		D67A8060242A76570005F41F /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A8057242A76570005F41F /* stdcheaders.h */; };
+		D67A8061242A76570005F41F /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A8058242A76570005F41F /* mprintf.h */; };
+		D67A8062242A76570005F41F /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A8059242A76570005F41F /* easy.h */; };
+		D67A8063242A76570005F41F /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805A242A76570005F41F /* curl.h */; };
+		D67A8064242A76570005F41F /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805B242A76570005F41F /* curlver.h */; };
+		D67A8065242A76570005F41F /* system.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805C242A76570005F41F /* system.h */; };
+		D67A8066242A76570005F41F /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805D242A76570005F41F /* typecheck-gcc.h */; };
+		D67A8067242A76570005F41F /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805E242A76570005F41F /* multi.h */; };
+		D67A8068242A76570005F41F /* urlapi.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A805F242A76570005F41F /* urlapi.h */; };
+		D67A806A242A76830005F41F /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A8069242A76830005F41F /* libcurl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +203,16 @@
 		84B790C11B7B7CE500B1C726 /* unicharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicharset.h; sourceTree = "<group>"; };
 		84E5F9BA1B7773F40012381C /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		84EA08B91B8DDF6E00AD3FFC /* libtesseract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract.a; sourceTree = "<group>"; };
+		D67A8057242A76570005F41F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		D67A8058242A76570005F41F /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		D67A8059242A76570005F41F /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		D67A805A242A76570005F41F /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		D67A805B242A76570005F41F /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		D67A805C242A76570005F41F /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		D67A805D242A76570005F41F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		D67A805E242A76570005F41F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		D67A805F242A76570005F41F /* urlapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlapi.h; sourceTree = "<group>"; };
+		D67A8069242A76830005F41F /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +225,7 @@
 				84803A221B87921B00577EA2 /* libjpeg.a in Frameworks */,
 				84803A241B87921B00577EA2 /* libpng.a in Frameworks */,
 				84803A261B87921B00577EA2 /* libtiff.a in Frameworks */,
+				D67A806A242A76830005F41F /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +287,7 @@
 		64A0293E17307CCF002B12E7 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				D67A8056242A76570005F41F /* curl */,
 				84B790541B7A46B300B1C726 /* images */,
 				64A0293F17307CCF002B12E7 /* leptonica */,
 				64A0295B17307CCF002B12E7 /* tesseract */,
@@ -347,6 +369,7 @@
 		64A029D017307CD0002B12E7 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				D67A8069242A76830005F41F /* libcurl.a */,
 				84803A1D1B87921B00577EA2 /* libjpeg.a */,
 				84803A1E1B87921B00577EA2 /* liblept.a */,
 				84803A1F1B87921B00577EA2 /* libpng.a */,
@@ -395,6 +418,22 @@
 			path = "../libtiff-ios/dependencies/include";
 			sourceTree = "<group>";
 		};
+		D67A8056242A76570005F41F /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				D67A8057242A76570005F41F /* stdcheaders.h */,
+				D67A8058242A76570005F41F /* mprintf.h */,
+				D67A8059242A76570005F41F /* easy.h */,
+				D67A805A242A76570005F41F /* curl.h */,
+				D67A805B242A76570005F41F /* curlver.h */,
+				D67A805C242A76570005F41F /* system.h */,
+				D67A805D242A76570005F41F /* typecheck-gcc.h */,
+				D67A805E242A76570005F41F /* multi.h */,
+				D67A805F242A76570005F41F /* urlapi.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -413,10 +452,12 @@
 				73C0A79D1A5932F900D823D4 /* G8TesseractParameters.h in Headers */,
 				84B790C71B7B7CE500B1C726 /* fileerr.h in Headers */,
 				73C0A7A01A59330A00D823D4 /* UIImage+G8Filters.h in Headers */,
+				D67A8062242A76570005F41F /* easy.h in Headers */,
 				84B790D21B7B7CE500B1C726 /* platform.h in Headers */,
 				84B790CE1B7B7CE500B1C726 /* ocrclass.h in Headers */,
 				84B790931B7B7CD100B1C726 /* dewarp.h in Headers */,
 				84B7908B1B7B7CD100B1C726 /* array.h in Headers */,
+				D67A8066242A76570005F41F /* typecheck-gcc.h in Headers */,
 				84B790C91B7B7CE500B1C726 /* helpers.h in Headers */,
 				84803A121B8790DC00577EA2 /* jconfig.h in Headers */,
 				84B7909E1B7B7CD100B1C726 /* ptra.h in Headers */,
@@ -428,6 +469,7 @@
 				84B790911B7B7CD100B1C726 /* bmp.h in Headers */,
 				84B7909B1B7B7CD100B1C726 /* list.h in Headers */,
 				84B790941B7B7CD100B1C726 /* endianness.h in Headers */,
+				D67A8064242A76570005F41F /* curlver.h in Headers */,
 				84B7908D1B7B7CD100B1C726 /* bbuffer.h in Headers */,
 				84B790A41B7B7CD100B1C726 /* stringcode.h in Headers */,
 				84B790CD1B7B7CE500B1C726 /* ndminx.h in Headers */,
@@ -435,6 +477,7 @@
 				84B790901B7B7CD100B1C726 /* bmfdata.h in Headers */,
 				84B790A21B7B7CD100B1C726 /* regutils.h in Headers */,
 				84B790C21B7B7CE500B1C726 /* apitypes.h in Headers */,
+				D67A8067242A76570005F41F /* multi.h in Headers */,
 				84B790D81B7B7CE500B1C726 /* tesscallback.h in Headers */,
 				84B790C61B7B7CE500B1C726 /* errcode.h in Headers */,
 				84803A151B8790DC00577EA2 /* jpeglib.h in Headers */,
@@ -443,15 +486,19 @@
 				73C0A7991A5932D200D823D4 /* G8RecognizedBlock.h in Headers */,
 				84B790951B7B7CD100B1C726 /* environ.h in Headers */,
 				84B790D91B7B7CE500B1C726 /* thresholder.h in Headers */,
+				D67A8065242A76570005F41F /* system.h in Headers */,
 				84B7908E1B7B7CD100B1C726 /* bilateral.h in Headers */,
 				84B790D01B7B7CE500B1C726 /* pageiterator.h in Headers */,
 				84B790DA1B7B7CE500B1C726 /* unichar.h in Headers */,
+				D67A8060242A76570005F41F /* stdcheaders.h in Headers */,
 				84B790971B7B7CD100B1C726 /* heap.h in Headers */,
 				84B790A11B7B7CD100B1C726 /* recog.h in Headers */,
 				84B790C31B7B7CE500B1C726 /* baseapi.h in Headers */,
 				84B7908C1B7B7CD100B1C726 /* arrayaccess.h in Headers */,
+				D67A8063242A76570005F41F /* curl.h in Headers */,
 				84B790D31B7B7CE500B1C726 /* publictypes.h in Headers */,
 				73C0A7981A5932CC00D823D4 /* G8TesseractDelegate.h in Headers */,
+				D67A8068242A76570005F41F /* urlapi.h in Headers */,
 				84803A171B8790DC00577EA2 /* pngconf.h in Headers */,
 				84B7908A1B7B7CD100B1C726 /* alltypes.h in Headers */,
 				84B790C41B7B7CE500B1C726 /* basedir.h in Headers */,
@@ -472,6 +519,7 @@
 				84B790C81B7B7CE500B1C726 /* genericvector.h in Headers */,
 				84B790CF1B7B7CE500B1C726 /* osdetect.h in Headers */,
 				84803A1A1B8790DC00577EA2 /* tiffconf.h in Headers */,
+				D67A8061242A76570005F41F /* mprintf.h in Headers */,
 				84B790DB1B7B7CE500B1C726 /* unicharmap.h in Headers */,
 				84B790CB1B7B7CE500B1C726 /* ltrresultiterator.h in Headers */,
 				84B790891B7B7CD100B1C726 /* allheaders.h in Headers */,
@@ -523,6 +571,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 64F74CC0172FD75F0068E657;
@@ -616,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -644,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lstdc++",
@@ -681,7 +730,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "TesseractOCR/TesseractOCR-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,7 +773,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "TesseractOCR/TesseractOCR-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -770,7 +819,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -807,7 +856,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "TesseractOCR/TesseractOCR-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
